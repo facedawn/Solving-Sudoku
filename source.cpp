@@ -126,7 +126,7 @@ void dfs()
 	int n, sum = 0, num = 0;
 	if (count == 0)
 	{
-
+		printf("\n");
 		for (i = 0; i < 9; i++)
 		{
 			for (j = 0; j < 9; j++)
@@ -136,6 +136,7 @@ void dfs()
 			printf("\n");
 		}
 		printf("\n");
+		
 	}
 	else
 	{
